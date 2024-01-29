@@ -40,6 +40,8 @@ def caesar_decipher(input_text, shift):
 def usage():
     print("Usage: python script.py [-d] input_text shift")
     print("-d: Decrypt the text (encrypt by default)")
+    print("input_text: Can be both a string or a path to a file")
+    print("shift: shift to apply to input_text")
 
 # Check command line arguments
 if len(sys.argv) < 3:
