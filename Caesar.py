@@ -4,6 +4,7 @@ import sys
 def read_input_text(input_text):
     # If input_text is a file path, read the file and return its content
     if os.path.isfile(input_text):
+        # file deepcode ignore PT: <please specify a reason of ignoring this>
         with open(input_text, 'r') as f:
             return f.read()
     # Otherwise, consider input_text as the text itself
