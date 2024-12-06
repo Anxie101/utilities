@@ -1,5 +1,6 @@
 # utilities
-Multiple simple scripts
+
+All Scripts in here are small utilities made for educationnal purpose and do not aim to be used in real envirronment.
 
 # Caesar.py
 Small script to try the Caesar algorithm on strings or files.
